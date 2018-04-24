@@ -137,6 +137,10 @@ section h1 {
     width: 100%;
 }
 
+.search {
+    float: left;
+}
+
 /* MAIN FOOTER */
 .main-footer {
     clear: both;
@@ -152,6 +156,14 @@ section h1 {
     margin-right: 0;
 }
 
+
 .ul-image {
-    list-style-image: url('../images/arrow.png');
+    list-style-type: none;
+}
+
+.ul-image li {
+    background-image: url('../images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 0px 19%;
+    padding-left: 9px;
 }
