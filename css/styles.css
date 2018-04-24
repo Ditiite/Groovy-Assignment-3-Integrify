@@ -1,0 +1,42 @@
+
+
+
+
+/****** HEADER ******/
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-btn > ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/*** Section and aside **/
+section {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: right;
+    width: 40%;
+}
+
+
+/* SECTION */
+section img {
+    width: 100%;
+}
+
+
+/* MAIN FOOTER */
+.main-footer {
+    clear: both;
+}
+
+.main-footer div {
+    width: 33%;
+}
