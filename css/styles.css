@@ -122,6 +122,21 @@ section h1 {
 .read-more {
     text-align: right;
 } 
+
+.section-footer a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.section-footer a:hover {
+    border-bottom: 1px solid #afafaf;
+}
+
+/****** ASIDE ******/
+.aside-bg-img {
+    width: 100%;
+}
+
 /* MAIN FOOTER */
 .main-footer {
     clear: both;
