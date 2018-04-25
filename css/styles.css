@@ -158,6 +158,35 @@ input {
     width: 48%;
 }
 
+/**** TABS ***/
+.tab-links {
+    display: flex;
+}
+.tab-links .tab-link {
+    flex: 1;
+    background: silver;
+    border: 1px solid silver;
+    text-align: center;
+    height: 45px;
+}
+
+.tab-links .tab-link.tab--active {
+    border-bottom: 0;
+    background: white;
+}
+
+.tab-content {
+    border: 1px solid silver;
+    border-top: 0;
+    min-height: 40px;
+    background: white;
+    padding: 10px 5px;
+}
+
+.tab-links .tab-link:nth-child(1) {
+    border-right: 0;
+}
+
 /* MAIN FOOTER */
 .big-footer {
     clear: both;
