@@ -162,6 +162,7 @@ input {
 .tab-links {
     display: flex;
 }
+
 .tab-links .tab-link {
     flex: 1;
     background: silver;
@@ -191,6 +192,7 @@ input {
 .big-footer {
     clear: both;
 }
+
 .main-footer {
     display: inline-flex;
 }
@@ -252,6 +254,10 @@ input {
 
 .right {
     float: right;
+}
+
+.right::after {
+    clear: both;
 }
 
 .p-darker {
